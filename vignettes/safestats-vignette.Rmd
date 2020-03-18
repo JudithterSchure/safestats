@@ -62,7 +62,7 @@ devtools::install_github("AlexanderLyNL/safestats")
 To avoid bringing an ineffective medicine to the market, experiments need to be conducted in which the null hypothesis of no effect is tested. Here we show how flexible experiments based on safe tests can be designed. 
 
 As the problem is statistical in nature, due to patients-to-patients variability, we cannot guarantee that 0% of the medicine that pass the safe test will be ineffective. <!--This can only be accomplished by tests that reject all drugs. -->
-Instead, the target is to bound the type I error by a tolerable \( \alpha \), say, \( \alpha = 0.05 \). In other words, at most 5 out of the 100 drugs that pass the safe test are allowed to be ineffective. 
+Instead, the target is to bound the type I error by a tolerable \( \alpha \), say, \( \alpha = 0.05 \). In other words, of all ineffective drugs, at most 5 out of the 100 drugs are allowed to pass the safe test. 
 
 At the same time, we would like to avoid a type II error, that is, missing out of on finding an effect, whenever there is one. Typically, the type II error is \( \beta = 0.20 \), which implies that we need an experiment with \( 1 - \beta = \) 80% power to detect the effect. 
 
